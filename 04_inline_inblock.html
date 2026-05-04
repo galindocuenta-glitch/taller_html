@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUTAS</title>
+</head>
+<body>
+    <h1>Explicacion: Rutas Absolutas y Relativas</h1>
+    <section>
+        <h2>Rutas Absolutas</h2>
+        <!--  Ruta completa a un recurso en un servidor externo. La ruta absolute es la URL completa del recurso, esta no se modifica segun la ubicacion del archivo actual -->
+          <p>
+         para ir a un sitio externo, como el catalago global de repuestos, usamos la URL completa:
+         <a href="https://www.shimano.com/en/company/locations/sla_es.html">Visitar Shimano Internacional</a>
+          </p>
+          <img src="https://www.shimano.com/en/company/executives.html" alt="Imagen  HTML desde un servidor externo" width="300" height="200" title="HTML 5">
+    </section>
+    <hr>
+    <section>
+        <h2>Rutas Relativas</h2>
+        <!--  Ruta relativa a un recurso dentro del mismo proyecto.La ruta relativa se basa en la ubicacion del archivo actual, y se ajustan segun la estructura de carpetas del proyecto  -->
+          <p>
+            Ir a la pagina de <a href="/04_inline_inblock.html">Inline vs Block</a>
+            <!-- Funcion si hay un archivo llamdo ´o4_inline_inblock.html´ en la misma carpeta. -->
+          </p>
+          <p>
+            Ver fotos de tecnologia <a href="/imagen_css.png">CSS 3</a>
+            <!-- Funciona si hay una imagen llamada imagen_css.png-->
+          </p>
+    </section>
+</body>
+</html>
